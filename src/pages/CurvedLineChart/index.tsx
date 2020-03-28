@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { select, line, curveCardinal } from 'd3';
 import './index.scss';
 
-const TheBasics = () => {
+const CurvedLineChart = () => {
   const [data, setData] = useState([36, 28, 45, 60, 20]);
 
   const svgRef = useRef();
@@ -42,4 +42,4 @@ const TheBasics = () => {
   );
 };
 
-export default TheBasics;
+export default CurvedLineChart;
